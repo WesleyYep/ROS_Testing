@@ -1,0 +1,10 @@
+<launch>
+
+  <group ns="live_demo1">
+    <node pkg="live_demo" name="pubnode" type="name_of_mypub_node"/>
+  </group>
+
+  <group ns="live_demo2">
+    <node pkg="live_demo" name="pubnode" type="name_of_mypub_node"/>
+  </group>
+</launch>
